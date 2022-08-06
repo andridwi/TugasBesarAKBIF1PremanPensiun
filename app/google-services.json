@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "76037981449",
+    "project_id": "tugasbesarakbif1premanpe-3347e",
+    "storage_bucket": "tugasbesarakbif1premanpe-3347e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76037981449:android:9a4c4b7748709842833fd8",
+        "android_client_info": {
+          "package_name": "com.example.tugasbesarakbif1premanpensiun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76037981449-dl5kdaksofs34atml4v8sdsja555d57f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc4SaMcaZPOwhGRZzKjW67wvTp95tpMTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76037981449-dl5kdaksofs34atml4v8sdsja555d57f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

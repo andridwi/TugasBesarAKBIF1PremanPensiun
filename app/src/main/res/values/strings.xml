@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PPApss</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="aplikasi_mencari_tempat_favorit">PPApps membantumu mencari tempat wisata favorit di dekatmu</string>
+    <string name="cari_wisata_terdekat">Temukan Tempat Favorit Terdekat</string>
+    <string name="cocokkan_jadwal">Sesuaikan Jadwal Liburanmu</string>
+    <string name="informasi_operasi_wisata">PPApps membantumu untuk melihat informasi tujuan tempat wisatamu</string>
+    <string name="informasi_lokasi_tempat_wisata">PPApps memberimu informasi terkait lokasi tempat wisatamu</string>
+    <string name="lacak_tempat_wisata">Lacak Lokasi Tempat Wisata</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+    <string name="title_activity_asia_afrika">Asia_Afrika</string>
+    <string name="title_activity_wonderland">Wonderland_Activity</string>
+    <string name="title_activity_kawah">KawahActivity</string>
+    <string name="title_activity_maribaya">MaribayaActivity</string>
+</resources>

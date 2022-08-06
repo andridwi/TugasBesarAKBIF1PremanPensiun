@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tugasbesarakbif1premanpensiun">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TugasBesarAKBIF1PremanPensiun"
+        tools:targetApi="31">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD28-a5A1awJKq5ylhU31qqKRBl7Urwi6c" />
+
+        <activity
+            android:name=".ui.view.MaribayaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maribaya" />
+        <activity
+            android:name=".ui.view.Wonderland_Activity"
+            android:exported="false"
+            android:label="@string/title_activity_wonderland" />
+        <activity
+            android:name=".ui.view.KawahActivity"
+            android:exported="false"
+            android:label="@string/title_activity_kawah" />
+        <activity
+            android:name=".ui.view.Asia_Afrika"
+            android:exported="false"
+            android:label="@string/title_activity_asia_afrika" />
+        <activity
+            android:name=".ui.activity.SliderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Asia_profile" />
+        <activity android:name=".Kawah_profile"
+            android:exported="false"/>
+        <activity android:name=".Maribaya_profile" />
+        <activity android:name=".Wonderland_profile" />
+    </application>
+
+</manifest>
